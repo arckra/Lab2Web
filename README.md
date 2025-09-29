@@ -83,7 +83,7 @@ penjelasannya!
 
 h1 {...}
 
-- Merupakan selector type/element
+- Merupakan selector type / element
 - Akan menerapkan style ke SEMUA elemen 
 ```<h1>```
  di halaman
@@ -107,7 +107,7 @@ h1 {
 - Merupakan selector descendant yang menggabungkan ID dan element
 - Hanya menerapkan style ke elemen 
 ```<h1>```
- yang berada di dalam elemen dengan id="intro"
+ yang berada di dalam elemen dengan ```id="intro" ```
 - Spesifisitas: 1,0,1 (lebih tinggi)
 
 contoh :
