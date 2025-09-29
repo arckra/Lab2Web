@@ -262,3 +262,9 @@ contoh :
 </body>
 </html>
 ```
+
+Terimakasih Banyak sudah membaca hingga akhir.
+
+Saya Ari, pamit undur diri
+
+Wassalamualaikum wr. wb.
