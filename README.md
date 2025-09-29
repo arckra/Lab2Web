@@ -221,8 +221,11 @@ Selector ID akan menang atas selector Class ketika ada konflik.
 
 Analogi Sederhana
 Bayangkan ini seperti sistem peringkat:
+
 ID = ⭐⭐⭐⭐⭐ (Bintang 5 - Paling kuat)
+
 Class = ⭐⭐⭐ (Bintang 3 - Kuat)
+
 Element = ⭐ (Bintang 1 - Lemah)
 
 Mengapa ID Lebih Kuat?
