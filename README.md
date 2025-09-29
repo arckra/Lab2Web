@@ -114,12 +114,11 @@ contoh :
 ```html
 <div id="intro">
         <h1>Hello World</h1>
-        <p>Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman
-Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
-adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
-dan CSS.</p>
+        <p>Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman Web</b>
+        di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah
+        membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
         <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
-    </div>
+</div>
 ```
 ```css
 #intro h1 {
@@ -196,24 +195,24 @@ Selector ID akan menang atas selector Class ketika ada konflik.
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-    .text-paragraf {
-        color: blue;
-        background: lightblue;
-    }
-    #paragraf-1 {
-        color: red;
-        background: pink;
-    }
-</style>
-</head>
+        <head>
+                <style>
+                    .text-paragraf {
+                        color: blue;
+                        background: lightblue;
+                    }
+                    #paragraf-1 {
+                        color: red;
+                        background: pink;
+                    }
+                </style>
+        </head>
 <body>
 
-<p id="paragraf-1" class="text-paragraf">
+        <p id="paragraf-1" class="text-paragraf">
     Teks ini akan berwarna MERAH dan background PINK
     karena ID lebih kuat daripada Class
-</p>
+        </p>
 
 </body>
 </html>
