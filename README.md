@@ -237,5 +237,28 @@ Mengapa ID Lebih Kuat?
 
 contoh :
 ```html
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prioritas ID vs Class</title>
+    <style>
+        /* CLASS selector */
+        .text-paragraf {
+            color: blue;
+            background: lightblue;
+        }
+        
+        /* ID selector - INI YANG MENANG */
+        #paragraf-1 {
+            color: red;
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <p id="paragraf-1" class="text-paragraf">
+        Teks ini berwarna MERAH (dari ID), bukan biru (dari Class)
+    </p>
+</body>
+</html>
 ```
